@@ -1,0 +1,68 @@
+body {
+  background-color: azure;
+}
+
+footer {
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.flex-containers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+.trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* AQUI */
+#label-family {
+  font-size: 20px;
+  margin: 5px;
+}
+
+#familyDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#familyContent {
+  display: flex;
+}
+
+#choiceContent {
+  display: flex;
+  justify-content: center;
+  width: 52%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contentDiv {
+  padding: 20px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#familyChoiceDiv {
+  display: flex;
+  justify-content: space-between;
+}
